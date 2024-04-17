@@ -1,0 +1,20 @@
+{
+  "name": "Markdown URL とれる君",
+  "description": "[サイト名](URL)の形式でURLをコピーしてくれる君です",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab", "scripting", "clipboardWrite"],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "icon.png"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+H",
+        "mac": "MacCtrl+Shift+H"
+      },
+      "description": "[サイト名](URL)の形式でURLをコピーします"
+    }
+  }
+}
